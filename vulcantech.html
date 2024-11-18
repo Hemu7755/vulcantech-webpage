@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VULCANTECHS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+
+
+    <style>
+        .main_div{
+            background-image: url("home-page-1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            width: 100%;
+        }
+        .dropdown:hover> .dropdown-menu {
+        display: block;
+        margin-top: 0;
+        }
+        .navbar-nav li :hover>ul.dropdown-menu{
+            display: block;
+            margin-top: -5px;
+            left: 100%;
+        }
+        .logo{
+          height: 50px;
+        }
+        .dropdown-item{
+            padding: 10px;
+        }
+        .ion ul li{
+          position: relative;
+          padding: 10px;
+        }
+        .name{
+            border: 2px solid transparent;
+            width: 500px;
+            position: relative;
+            top: 190px;
+            left: 790px;
+        }
+        .name1{
+          font-family: Verdana, Tahoma, sans-serif;
+        }
+        .name2{
+          color:#53ba00;
+          position: relative;
+          bottom: 5px;
+        }
+        .name3{
+            
+          position: relative;
+          bottom: 10px;
+        }
+        .name4{
+          color: #53ba00;
+          position: relative;
+          bottom: 20px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        .img{
+            transition: 0.5s;
+        }
+        .img:hover{
+            transform: scale(1.1);
+        }
+        .CSI{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 50px;
+
+        }
+        .CSI:hover{
+            background-color: black;
+            color: white;
+            transition: 0.5s;
+            border: 3px solid white;
+        }
+        .CSII{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            color: black;
+            padding: 20px;
+            border-radius: 50px;
+
+        }
+        .CSII:hover{
+            background-color: black;
+            color: white;
+            border: 3px solid white;
+            transition: 0.5s;
+        }
+        .home2{
+            background-image: url("home-page-2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+        }
+        .scale{
+            color: #82c64a;
+            height: 80px;
+            width: 80px;
+            padding-right: 10px;
+        }
+        .star{
+            color: #53ba00;
+        }
+        .star:hover{
+            color: white;
+            transition: 0.5s;
+        }
+        .A{
+            border: 2px solid transparent;
+            height:200px;
+            width: 1000px;
+            position: relative;
+            left:154px;
+            top: 130px;
+        }
+        .green{
+            border: 2px solid transparent;
+            width: 1000px;
+            height: 400px;
+        }
+        .btn{
+            position: relative;
+            left: 155px;
+            color: white;
+            background-color: #53ba00;
+            border-radius: 20px;
+            top: 100px;
+        }
+        .btn:hover{
+            background-color: rgb(17, 149, 17);
+            color: white;
+        }
+        .B{
+            border: 2px solid transparent;
+            height: 800px;
+            width: 830px;
+            position: relative;
+            left: 530px;
+        }
+        .C{
+            border: 2px solid transparent;
+            height: 145px;
+            position: relative;
+            top: 60px;
+            
+        }
+        .D{
+            position: relative;
+            border: 2px solid transparent;
+            width: 800px;
+            left: 154px;
+        }
+        .ABC{
+            color: #86ef30;
+            position: relative;
+            height: 50px;
+            width: 50px;
+            margin-bottom: 20px;
+        }
+        .greenbtn{
+            height: 350px;
+        }
+        .home6{
+            background-image: url("bg_creative.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+        }
+        .E{
+            top: 90px;
+            position: relative;
+            border: 2px solid transparent;
+            width: 800px;
+            height: 160px;
+            left: 154px;
+        }
+        .sub{
+            background-color: greenyellow;
+        }
+        .sub:hover{
+            background-color: #53ba00;
+
+        }
+        .col-5 ul li{
+            color: #53ba00;
+            text-align: right;
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="main_div p-3 m-0 border-0 bd-example m-0 border-0">
+
+        <nav class="navbar navbar-expand-lg body-tertiary">
+        <a class="navbar-brand" href="#"></a>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse bs-dark-bg-subtle" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active  dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" href="#">Services</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropend">
+                                    <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Development Services</a>
+                                    <ul class="dropdown-menu ">
+                                        <li><a class="dropdown-item" href="#">Mobile Application Development</a></li>
+                                        <li><a class="dropdown-item" href="#">Web Application Development</a></li>
+                                        <li><a class="dropdown-item" href="#">Custom Application Development</a></li>
+                                        <li><a class="dropdown-item" href="#">Desktop Application Development</a></li>
+                                        <li><a class="dropdown-item" href="#">SAAS Development</a></li>
+                                        <li><a class="dropdown-item" href="#">DevOps</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropend">
+                                    <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Data and Modernization</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Digital Commerce</a></li>
+                                        <li><a class="dropdown-item" href="#">Data Analytics</a></li>
+                                        <li><a class="dropdown-item" href="#">Database Management</a></li>
+                                        <li><a class="dropdown-item" href="#">Legacy Application Modernization</a></li>
+                                        <li><a class="dropdown-item" href="#">Open Source Development</a></li>
+                                        <li><a class="dropdown-item" href="#">Middleware</a></li>
+                                        <li><a class="dropdown-item" href="#">Business Automation</a></li>
+                                        <li><a class="dropdown-item" href="#">Cloud Computing</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropend">
+                                    <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Disruptive Technologlies</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Robotic Process Automation (RPA)</a></li>
+                                        <li><a class="dropdown-item" href="#">Blockchain</a></li>
+                                        <li><a class="dropdown-item" href="#">IoT - Internet of Things</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropend">
+                                    <a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Transformation Services</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Factory Digitization</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Products</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Part Traceability</a></li>
+                                    <li><a class="dropdown-item" href="#">Logistics Tracker</a></li>
+                                    <li><a class="dropdown-item" href="#">Human Resource Management Systems</a></li>
+                                    <li><a class="dropdown-item" href="#">Inventory Management Tool</a></li>
+                                    <li><a class="dropdown-item" href="#">Edu. Organization Management System</a></li>
+                                    <li><a class="dropdown-item" href="#">E-Commerce</a></li>
+                                    <li><a class="dropdown-item" href="#">Healthcare/Laboratory Management System</a></li>
+                                    <li><a class="dropdown-item" href="#">Crypto Exchange</a></li>
+                                </ul>
+                        </li>
+                        <li class="nav-item"><img class="logo" src="logo.png" alt=""></li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Career</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Our Team</a></li>
+                                <li><a class="dropdown-item" href="#">Join Us</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="ion">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                </svg></li>
+                                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                                </svg></li>
+                                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                </svg></li>
+                                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                </svg></li>
+                                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                                </svg></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+            <div class="name">
+                <span class="name1">
+                    <h5>We've Got You Covered</h5>
+                </span>
+                <span class="name2">
+                    <h4>_________</h4>
+                </span>
+                <span class="name3">
+                    <h1 class="display-1">Information to</h1>
+                </span>
+                <span class="name4">
+                    <h1 class="display-1"><strong>Innovation</strong></h1>
+                </span>
+            </div>
+    </div>
+
+    <div class="home1">
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col" style=" background-image: url('img_creative_0.jpg'); margin: 0; padding: 0; background-size: cover; width:479px; height:450px;">
+                    <span class="h3"><svg class="CSI m-5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+                        <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"/>
+                      </svg><br>Cross Platform and <br> Cloud Computing</span><br><span style="color: white;">__________</span><br><span style="font-family: Verdana, Geneva, Tahoma, sans-serif;"> We are a firm believer in ensuring that your B2B applications work on any device, including desktops, laptops, tablets, and smartphones, and providing remote data access, storage, and processing</span>
+                </div>
+                <div class="col" style="overflow: hidden;margin: 0; padding: 0;">
+                    <div class="img" style="background-image: url('img_creative_1.jpg');  margin: 0; padding: 0; background-size: cover; width:510px; height:450px;"></div>
+                </div>
+                <div class="col" style="background-image: url('img_creative_2.jpg'); margin: 0; padding: 0; background-size: cover; width:479px; height:450px; color: white;">
+                    <span class="h3"><svg class="CSII m-5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                        <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"/>
+                      </svg><br> 24 x 7 Support services </span><br><span style="color: black;">__________</span><br> <span style="font-family: Verdana, Geneva, Tahoma, sans-serif;">We understand the needs and significance of a 24/7 IT support service as a business requires support in local time zones. Getting help in real-time and finding solutions to any issues as soon as they come up means zero downtimes</span>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col" style="background-image: url('img_creative_3.jpg'); margin: 0; padding: 0; background-size: cover; width:479px; height:450px;">
+                </div>
+                <div class="col" style="background-image: url('img_creative_4.jpg'); margin: 0; padding: 0; background-size: cover; width:479px; height:450px; color: white;">
+                    <span class="h3"><svg class="CSII m-5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hdd-stack" viewBox="0 0 16 16">
+                        <path d="M14 10a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1zM2 9a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1a2 2 0 0 0-2-2z"/>
+                        <path d="M5 11.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-2 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0M14 3a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM2 2a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/>
+                        <path d="M5 4.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-2 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"/>
+                      </svg> <br>Industry 4.0 </span><br><span style="color: #53ba00;">__________</span><br> <span style="font-family: Verdana, Geneva, Tahoma, sans-serif;">We develop and support applications required for smart factories equipped with advanced IoT devices, sensors, embedded software, and robotics that automate data collection and analysis to allow for informed decision-making. When combined with operational data from other enterprise systems, it increases efficiency, quality, and productivity</span>
+                </div>
+                <div class="col" style="background-image: url('img_creative_5.jpg'); margin: 0; padding: 0; background-size: cover; width:479px; height:450px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="home2">
+        <div class="A">
+            <span class="display-4" >Ready to <span style="color: #53ba00; font-family: Arial, Helvetica, sans-serif;">scale up</span> your business? <br></span>
+        </div>
+        <div style="text-align: center;">
+            <span class="display-4" style="color: lightgray;">____________________________________________________</span>
+        </div>
+        <div class="container ">
+            <div class="row m-5 pt-5">
+                <div class="col-4">
+                    <div class="row">
+                        <div class="col-3">
+                            <svg class="scale" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cloud-fog2" viewBox="0 0 16 16">
+                                <path d="M8.5 4a4 4 0 0 0-3.8 2.745.5.5 0 1 1-.949-.313 5.002 5.002 0 0 1 9.654.595A3 3 0 0 1 13 13H.5a.5.5 0 0 1 0-1H13a2 2 0 0 0 .001-4h-.026a.5.5 0 0 1-.5-.445A4 4 0 0 0 8.5 4M0 8.5A.5.5 0 0 1 .5 8h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5"/>
+                              </svg>
+                        </div>
+                        <div class="col-9">
+                            <p class="P"><b>Enterprise solutions</b> <br>
+                                We understand that every business is different - that's why we offer a wide range of products for all industries. Whether you're in manufacturing, healthcare, or retail, we have a software solution that will help you succeed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="row">
+                        <div class="col-3"><svg class="scale" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5"/>
+                          </svg>
+                        </div>
+                        <div class="col-9">
+                            <p class="P"><b>Productivity</b> <br>
+                                We know how important it is for a business to be productive and efficient, which is why we offer consultancy services to help you maximize productivity and efficiency. Our experts can offer advice on how to improve your workflow by automating tasks, embracing the power of industrial IoT, and more</p>            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="row">
+                        <div class="col-3">
+                            <svg class="scale" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                                <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0"/>
+                                <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z"/>
+                              </svg>
+                        </div>
+                        <div class="col-9">
+                            <p class="P"><b>Automation</b> <br>
+                                We are an expert in industrial automation, helping businesses transform their processes with customized software. With our expertise in robotic process automation, we can provide the right solution for your industry. Increased efficiency, reduced human error, higher product quality, and production time standards</p>            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-5">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-3">
+                            <svg class="scale" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-line" viewBox="0 0 16 16">
+                                <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1zm1 12h2V2h-2zm-3 0V7H7v7zm-5 0v-3H2v3z"/>
+                              </svg>
+                        </div>
+                        <div class="col-9">
+                            <p class="P"><b>Data driven strategy</b> <br>
+                                VulcanTechs can help your organization achieve its full potential by taking care of the data that is most critical to your business. You can rely on our experience and resources to discover which metrics are most important in your situation and how best to set up a system that will get you the information you need in real-time</p>        
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col-3">
+                            <svg class="scale" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear-wide-connected" viewBox="0 0 16 16">
+                                <path d="M7.068.727c.243-.97 1.62-.97 1.864 0l.071.286a.96.96 0 0 0 1.622.434l.205-.211c.695-.719 1.888-.03 1.613.931l-.08.284a.96.96 0 0 0 1.187 1.187l.283-.081c.96-.275 1.65.918.931 1.613l-.211.205a.96.96 0 0 0 .434 1.622l.286.071c.97.243.97 1.62 0 1.864l-.286.071a.96.96 0 0 0-.434 1.622l.211.205c.719.695.03 1.888-.931 1.613l-.284-.08a.96.96 0 0 0-1.187 1.187l.081.283c.275.96-.918 1.65-1.613.931l-.205-.211a.96.96 0 0 0-1.622.434l-.071.286c-.243.97-1.62.97-1.864 0l-.071-.286a.96.96 0 0 0-1.622-.434l-.205.211c-.695.719-1.888.03-1.613-.931l.08-.284a.96.96 0 0 0-1.186-1.187l-.284.081c-.96.275-1.65-.918-.931-1.613l.211-.205a.96.96 0 0 0-.434-1.622l-.286-.071c-.97-.243-.97-1.62 0-1.864l.286-.071a.96.96 0 0 0 .434-1.622l-.211-.205c-.719-.695-.03-1.888.931-1.613l.284.08a.96.96 0 0 0 1.187-1.186l-.081-.284c-.275-.96.918-1.65 1.613-.931l.205.211a.96.96 0 0 0 1.622-.434zM12.973 8.5H8.25l-2.834 3.779A4.998 4.998 0 0 0 12.973 8.5m0-1a4.998 4.998 0 0 0-7.557-3.779l2.834 3.78zM5.048 3.967l-.087.065zm-.431.355A4.98 4.98 0 0 0 3.002 8c0 1.455.622 2.765 1.615 3.678L7.375 8zm.344 7.646.087.065z"/>
+                              </svg>
+                        </div>
+                        <div class="col-9">
+                            <p class="P"><b>Supply chain solutions </b><br>
+                                Using a myriad of applications like part traceability systems, logistics trackers, blockchain, and IoT-based systems, we are committed to working with our partners, suppliers, and end-users to have a better understanding of their needs in an interconnected supply chain and deliver an adaptable and robust enterprise</p>        
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col-3">
+                            <svg class="scale" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb-fill" viewBox="0 0 16 16">
+                                <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5"/>
+                              </svg>
+                        </div>
+                        <div class="col-9">
+                            <p class="P"><b>Technology Innovation</b> <br>
+                                Consumers, employees, and the market have all been forever transformed as a result of the pandemic, geopolitical tensions, and persisting inflation. We offer the right approach so that companies can use innovative technologies to overcome this disruption and use their investments to shape their future</p>        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center;">
+            <span class="display-4" style="color: lightgray;">____________________________________________________</span>
+        </div>
+        <div class="green">
+            <input class="btn" type="button" value="View Our Core Team">
+        </div>
+        <div class="B">
+            <div>
+                <span class="display-3" >We know you <span style="color: #53ba00; font-family: Arial, Helvetica, sans-serif;">work hard</span></span>
+            </div>
+            <div class="C">
+                <span style="font-family: Verdana, Geneva, Tahoma, sans-serif;">At VulcanTechs, we understand the importance of quality work and provide a 100% customer satisfaction guarantee. We provide IT consulting services to help companies grow with end-to-end solutions for our clients. Our dedicated team of experts helps you with any type of IT systems or software needs.</span>
+            </div>
+            <div style="text-align: center;">
+                <span class="display-4" style="color: lightgrey;">____________________________________</span>
+            </div>
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col">
+                        <p class="P"><b>Work smarter not harder</b> <br><br>
+                            We're here to help you get back time in your day by taking care of all the tedious parts of your business so you have more time to focus on what matters most! <br> <br> Research and data analysis will help to get a clearer picture of what is happening in the industry, as well as identifying any potential gaps in your operations.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <span class="P"><b>Convenience at your fingertips</b></span> <br><br>
+                            <span> can stay on top of your tasks by using our IT consultancy services to maximize efficiency. We also offer <span style="color: #53ba00;">industry 4.0</span> solutions to help you stay ahead of the curve. All you need to do is <span style="color: #53ba00;">contact us</span> for a free consultation and we’ll assess your needs and set up a plan for implementing our services.</span>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <span class="display-4" style="color: lightgray;">____________________________________</span>
+            </div>
+        </div>
+        <div class="D">
+            <span class="display-3" >Awesome client <br><span style="color: #53ba00; font-family: Arial, Helvetica, sans-serif;"><b>reviews & comments</b></span></span>
+        </div>
+        <div style="text-align: center;">
+            <span class="display-4" style="color: lightgray;">____________________________________________________</span>
+        </div>
+        <div id="carouselExampleRide" class="carousel slide mb-5 container" data-bs-ride="true">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <div class="row text-center m-5">
+                    <div class="col-4 ">
+                        <div class="">
+                            <img src="man.png" class="card-img-top m-5" style="border-radius: 300px;;height: 170px; width: 170px;" alt="">
+                            <div class="card-body text-center">
+                            <h3 class="card-title mb-3" style="color: #53ba00;">Impeccable service!</h3>
+                            <p class="card-text">Our project would't have been successful and where it is today without the help of "Rohit Padala". It has been a pleasure working with Rohit. We are very proud of his commitment in the project. He is very clear in demonstration of owning the project and delivering it with excellence. <br>
+                                <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                <br>Schultz, brodie <br>Ford, North AMerica Region</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="">
+                            <img src="women.png" class="card-img-top m-5" style="border-radius: 300px;;height: 170px; width: 170px;" alt="...">
+                            <div class="card-body">
+                            <h3 class="card-title mb-3" style="color: #53ba00;">Design - out of this world!</h3>
+                            <p class="card-text">Sowmya is always prompt very diligent positive and "can-do" attitude when working with her is contagious and creates a great working environment of professionalism, hard work, dedication, experience and expertise made workingon this project more efficient <br>
+                                <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                <br>Ladha, Salima <br>Ford, North AMerica Region</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="">
+                            <img src="man.png" class="card-img-top m-5" style="border-radius: 300px;;height: 170px; width: 170px;" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title mb-3" style="color: #53ba00;">Amazing service!</h3>
+                            <p class="card-text">Digital protag wouldn't be where it is today without all of the hard work of the team. Thank you very mush for all the hard work and support <br>
+                                <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                <br>Tocco, Anthony <br>Ford, North AMerica Region</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              
+              <div class="carousel-item">
+                <div class="row text-center m-5">
+                    <div class="col-4">
+                        <div class="">
+                            <img src="man.png" class="card-img-top m-5" style="border-radius: 300px;;height: 170px; width: 170px;" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title mb-3" style="color: #53ba00;">Distinguished service and Excellent Response </h3>
+                            <p class="card-text">"Our coaching institute needed a solution during the COVID-19 Lockdown. Mr. Aakash was kind enough to take up our request on a priorith basis and implemented a complete LMS module" <br>
+                                <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                <br>Client: The Abhyas Online</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="">
+                            <img src="group.png" class="card-img-top m-5" style="border-radius: 300px;;height: 170px; width: 170px;" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title mb-3" style="color: #53ba00;">Matchless Output & Productivity</h3>
+                            <p class="card-text">"Timely development and deployment of our mobile app for News by the VulcanYechs team along with continous support." <br>
+                                <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <br>Newspedia Team</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="">
+                            <img src="man.png" class="card-img-top m-5" style="border-radius: 300px;;height: 170px; width: 170px;" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title mb-3" style="color: #53ba00;">Splendid Work</h3>
+                            <p class="card-text">"Great job by the VulcanTechs Team. Our company had an urgent reqirement and they delivered earlier than expected!" <br>
+                                <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                <br>Mr Srujan Babu</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+
+
+    <div class="home3" style="background-color: black;">
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col mt-5 mb-5" style=" background-image: url('img-about-01.jpg'); margin: 0; padding: 0; background-size: cover; height:600px;">
+                </div>
+                <div class="col" style="padding: 0px 50px; color: white;">
+                    <div class="row display-4 mt-5 mb-5">Committed to customer <br><span style="color: #9ef25a; text-align: left;font-weight: bold;"><b>satisfaction</b></span></div>
+                    <div class="row">
+                        <div class="col-8 mb-2" style="text-align: left;">All our teams work in sync with each other right from the first meeting to ensure a seamless and hassle-free experience to our clients.</div>
+                        <div class="col-4"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8" style="text-align: left;">We inspire our clients to make bold decisions with creativity, design and analysis that helps them get that extra edge over the market.</div>
+                        <div class="col-4"></div>                     
+                    </div>
+                    <div class="row">
+                        <div class="col-4 p-5"><svg class="ABC" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bounding-box" viewBox="0 0 16 16">
+                            <path d="M5 2V0H0v5h2v6H0v5h5v-2h6v2h5v-5h-2V5h2V0h-5v2zm6 1v2h2v6h-2v2H5v-2H3V5h2V3zm1-2h3v3h-3zm3 11v3h-3v-3zM4 15H1v-3h3zM1 4V1h3v3z"/>
+                            </svg>
+                            <p class="h1">556</p>Projects worked on for various clients
+                        </div>
+                        <div class="col-4 p-5"><svg class="ABC" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-boombox" viewBox="0 0 16 16">
+                            <path d="M2.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m2 0a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m7.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m1.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m-7-1a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm5.5 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"/>
+                            <path d="M11.5 13a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5m0-1a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3M5 10.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"/>
+                            <path d="M7 10.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0m-1 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+                            <path d="M14 0a.5.5 0 0 1 .5.5V2h.5a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h12.5V.5A.5.5 0 0 1 14 0M1 3v3h14V3zm14 4H1v7h14z"/>
+                            </svg>
+                            <p class="h1">40000</p>Hours of cumulative work experience
+                        </div>
+                        <div class="col-4 p-5"><svg class="ABC" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe-central-south-asia" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M4.882 1.731a.48.48 0 0 0 .14.291.487.487 0 0 1-.126.78l-.291.146a.7.7 0 0 0-.188.135l-.48.48a1 1 0 0 1-1.023.242l-.02-.007a1 1 0 0 0-.462-.04 7 7 0 0 1 2.45-2.027m-3 9.674.86-.216a1 1 0 0 0 .758-.97v-.184a1 1 0 0 1 .445-.832l.04-.026a1 1 0 0 0 .152-1.54L3.121 6.621a.414.414 0 0 1 .542-.624l1.09.818a.5.5 0 0 0 .523.047.5.5 0 0 1 .724.447v.455a.8.8 0 0 0 .131.433l.795 1.192a1 1 0 0 1 .116.238l.73 2.19a1 1 0 0 0 .949.683h.058a1 1 0 0 0 .949-.684l.73-2.189a1 1 0 0 1 .116-.238l.791-1.187A.45.45 0 0 1 11.743 8c.16 0 .306.084.392.218.557.875 1.63 2.282 2.365 2.282l.04-.001a7.003 7.003 0 0 1-12.658.905Z"/>
+                            </svg>
+                            <p class="h1">255</p>And more satisfied clients worldwide
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="home4" style="background-color: whitesmoke; border: 2px solid transparent; height: 1500px;" >
+        <div class="container mt-3 pt-5 mb-3">
+            <div class="row m-5">
+                <span class="display-3">Our dedicated <br><span style="color: #53ba00;font-family: Verdana, Geneva, Tahoma, sans-serif;">Core team</span></span>
+            </div>
+            <div class="row m-5">
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title">Managing Partner & Co-founder</p>
+                            <span style="color: #53ba00;">_______</span>
+                            <h3 class="card-text"><b>Yalla Ravi Teja</b></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title">Partner & Co-founder</p>
+                            <span style="color: #53ba00;">_______</span>
+                            <h3 class="card-text"><b>Talluri Rohit Kishore</b></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="kishore-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title">Senior Software Developer</p>
+                            <span style="color: #53ba00;">_______</span>
+                            <h3 class="card-text"><b>Gorrela Kishore</b></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="9-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title">Quality Assurance Engineer</p>
+                            <span style="color: #53ba00;">_______</span>
+                            <h3 class="card-text"><b>Singuru Srikanthbabu</b></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-5">
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="13.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title">Project Manager</p>
+                            <span style="color: #53ba00;">_______</span>
+                            <h5 class="card-text">Sony Vipparthi</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title">Senior Software Developer</p>
+                            <span style="color: #53ba00;">_______</span>
+                            <h5 class="card-text">Rohit Kumar Padala</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="14.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title">Digital Marketing Manager</p>
+                            <span style="color: #53ba00;">_______</span>
+                            <h5 class="card-text">Rongali Surya Satya Sandeep</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="pic.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title">Human Resource Manager</p>
+                            <span style="color: #53ba00;">_______</span>
+                            <h5 class="card-text">Pattisapu Sai Venkata Sampath</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="home5">
+        <div class="container mt-5 pt-5">
+            <div class="row">
+                <span class="display-3">Interested in a <span style="color: #53ba00;"><b>career with us?</b></span></span>
+            </div>
+        </div>
+        <div class="container text-center mt-5 pt-5">
+            <div class="row" style="height: 250px;padding: 30px;">
+                <div class="col-3">
+                    <span><svg class="ABC" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-intersect" viewBox="0 0 16 16">
+                        <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2zm5 10v2a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1h-2v5a2 2 0 0 1-2 2zm6-8V2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2V6a2 2 0 0 1 2-2z"/>
+                      </svg></span>
+                    <span><h5><b>Challenging projects</b></h5><br><p>Proactively envisioned multimedia based expertise and cross-media growth strategies.</p></span>
+                </div>
+                <div class="col-3">
+                    <span><svg class="ABC" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-alarm" viewBox="0 0 16 16">
+                        <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9z"/>
+                        <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1zm1.038 3.018a6 6 0 0 1 .924 0 6 6 0 1 1-.924 0M0 3.5c0 .753.333 1.429.86 1.887A8.04 8.04 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5M13.5 1c-.753 0-1.429.333-1.887.86a8.04 8.04 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1"/>
+                      </svg></span>
+                    <span><h5><b>Custom working time</b></h5><br><p>Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.</p></span>
+                </div>
+                <div class="col-3">
+                    <span><svg class="ABC" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                        <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/>
+                      </svg></span>
+                    <span><h5><b>Pixel perfect apps</b></h5><br><p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test.</p></span>
+                </div>
+                <div class="col-3">
+                    <span><svg class="ABC" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                      </svg></span>
+                    <span><h5><b>Close to city center</b></h5><br><p>Seamlessly empower fully researched growth strategies and interoperable internal or "organic" sources.</p></span>
+                </div>
+            </div>
+            <div class="row" style="height: 250px; padding: 30px;">
+                <div class="col-3">
+                    <span><svg class="ABC" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gem" viewBox="0 0 16 16">
+                        <path d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6zm11.386 3.785-1.806-2.41-.776 2.413zm-3.633.004.961-2.989H4.186l.963 2.995zM5.47 5.495 8 13.366l2.532-7.876zm-1.371-.999-.78-2.422-1.818 2.425zM1.499 5.5l5.113 6.817-2.192-6.82zm7.889 6.817 5.123-6.83-2.928.002z"/>
+                      </svg></span>
+                    <span><h5><b>Awesome Clients</b></h5><br><p>Credibly innovate granular internal or "organic" sources whereas high standards in web-readiness.</p></span>
+                </div>
+                <div class="col-3">
+                    <span><svg class="ABC" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+                        <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2 2 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a10 10 0 0 0-.443.05 9.4 9.4 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a9 9 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.2 2.2 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.9.9 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+                      </svg></span>
+                    <span><h5><b>Award winning team</b></h5><br><p>Energistically scale future-proof core competencies vis-a-vis impactful experiences.</p></span>
+                </div>
+                <div class="col-3">
+                    <span><svg class="ABC" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-vector-pen" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M10.646.646a.5.5 0 0 1 .708 0l4 4a.5.5 0 0 1 0 .708l-1.902 1.902-.829 3.313a1.5 1.5 0 0 1-1.024 1.073L1.254 14.746 4.358 4.4A1.5 1.5 0 0 1 5.43 3.377l3.313-.828zm-1.8 2.908-3.173.793a.5.5 0 0 0-.358.342l-2.57 8.565 8.567-2.57a.5.5 0 0 0 .34-.357l.794-3.174-3.6-3.6z"/>
+                        <path fill-rule="evenodd" d="M2.832 13.228 8 9a1 1 0 1 0-1-1l-4.228 5.168-.026.086z"/>
+                      </svg></span>
+                    <span><h5><b>Great people</b></h5><br><p>Phosfluorescently engage worldwide methodologies with web-enabled mobile technology.</p></span>
+                </div>
+                <div class="col-3">
+                    <span><svg class="ABC" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
+                        <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
+                      </svg></span>
+                    <span><h5><b>Creative environment</b></h5><br><p>Podcasting operational change management inside of workflows to establish a framework.</p></span>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <span class="display-4" style="color: lightgray;">____________________________________________________</span>
+            </div>
+        </div>
+        <div class="greenbtn text-center">
+            <input class="click " style="position: relative;top: 125px; right: 8px; background-color: #53ba00;color: white; height: 60px;border-radius: 30px;width: 200px;border: white;font-weight: bold;" type="button" value="Contact us anytime" >
+            <input class="click " style="position: relative;top: 125px; left: 8px; background-color: #96f14c;height: 60px;border-radius: 30px;width: 230px;border: white; font-weight: bold;" type="button" value="Apply for open position">
+        </div>
+    </div>
+
+
+
+    <div class="home6">
+        <div class="E">
+            <span class="display-3" >Stay <span style="color: white; font-family: Arial, Helvetica, sans-serif;"><b>informed</b></span></span>
+        </div>
+        <div style="text-align: center;">
+            <span class="display-4 " style="color: dimgray;">____________________________________________________</span>
+        </div>
+        <div class="container mt-3 p-5" style="height: 300px; "> 
+            <div class="row" >
+                <div class="col-6">
+                    <span>Keep up with VulcanTechs and get instant news once in a while. We promise, no spam or similar emails, just pure goodness.</span>
+                </div>
+                <div class="col-6">
+                    <input type="email" style="width: 390px;background-color: white;height: 50px;border-radius: 30px; color: lightgrey;border: white; padding: 10px 0px 10px 20px;" value="Enter your email address"><BR></BR>
+                    <input class="sub" type="button" style="width: 140px;height: 50px;border-radius: 30px; border: white; text-align: center;font-weight: bold;" value="SUBSCRIBE">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="home7" style="background-color: black;">
+        <div class="container">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-5">
+                    <div class="h1 mt-5 mb-3 pt-3" style="color: white;font-weight: bold;"><span style="color: #53ba00;">V</span>UL<span style="color: #53ba00;">CAN</span>TECHS</div>
+                    <div class=" footer" style="color: white; position: relative;left: 123px;top: -15px;">innovation to the core</div>
+                </div>
+                <div class="col-5" >
+                    <ul type="none">
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                        </svg></li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                        </svg></li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                        </svg></li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                        </svg></li>
+                    </ul>
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <div style="text-align: center;">
+                <span class="display-4 pt-3 pb-3" style="color: dimgray;">____________________________________________________</span>
+            </div>
+            <div class="row mt-5">
+                <div class="col-1"></div>
+                <div class="col-2">
+                    <p style="color: #53ba00;">Products </p><small style="color: white;">Part Traceability <br>
+                        Logistics Tracker <br>
+                        Human Resource Management Systems <br>
+                        Inventory Management Tools <br>
+                        Edu. Organization Management System <br>
+                        E-Commerce <br>
+                        Healthcare/Laboratory Management System <br>
+                        Crypto Exchange</small>
+                </div>
+                <div class="col-2">
+                    <p style="color: #53ba00;">Career </p><small style="color: white;">Our Team <br>
+                        Join Us</small>
+                </div>
+                <div class="col-2">
+                    <p style="color: #53ba00;">Blogs </p><small style="color: white;">Best Serverless Architectures: Future of Backend Development <br>
+                        Web3 & Blockchain Integration: Internet’s Digital Evolution</small>
+                </div>
+                <div class="col-2">
+                    <p style="color: #53ba00;">Subscribe </p><small style="color: white;">If you wish to receive our latest news in your email box, just subscribe to our newsletter. We won’t spam you, we promise!</small>
+                    <input type="email" style="width: 200px;background-color: black;height: 40px;border-radius: 30px; color: white; padding: 20px 20px 20px 10px;top: 30px;position: relative;font-size: small;" value="Enter your email address"><BR></BR>
+                    <input class="sub" type="button" style="width: 60px;height: 40px;border-radius: 30px; border: white; text-align: center;font-weight: bold;top: 30px;position: relative;font-size: small;" value=">>">
+                </div>
+                <div class="col-2">
+                    <p style="color: #53ba00;">VulcanTechs </p><small style="color: white;">VulcanTechs develops and deploys B2B solutions to various customers/clients. We have a wide ranging clientele covering Schools, Hospitals, Pathology laboratories, Colleges, SMEs, Industries etc. We specialize in delivering customized solutions with quick response times in deployment and support.</small>
+                </div>
+                <div class="col-1"></div>
+        </div>
+        </div>
+        <div style="text-align: center;">
+            <span class="display-4" style="color: dimgray;">____________________________________________________</span>
+        </div>
+        <div style="text-align: center; height:100px;">
+            <small style="color: white;position: relative; top: 35px;">Copyright by VULCANTECHS. All rights reserved.</small>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
